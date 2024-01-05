@@ -2,7 +2,7 @@
 
 # ##########################################################################################
 # Manually add the following to `~/.bashrc` to make them available to new bash sessions.
-#     source ~/zj-portal/ubuntu-setup/zj-bash-setup.bash
+#     source ~/zj-portal/ubuntu-setup/zj-bashrc-setup.bash
 # ##########################################################################################
 
 # Activate [bash-git-prompt] or report missing then configure it

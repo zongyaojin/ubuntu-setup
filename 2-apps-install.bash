@@ -5,15 +5,9 @@ set -e
 sudo apt update -y
 sudo apt upgrade -y
 
-# Configure git
-git config --global user.email "zongyaojin@outlook.com"
-git config --global user.name "Zongyao Jin"
-git config --global credential.helper cache
-git config --global pull.rebase false
-
 # Ubuntu essential tools
 ubuntu_essentials="
-terminator simplescreenrecorder curl wget \
+git terminator simplescreenrecorder curl wget \
 texlive-extra-utils texlive-latex-extra krop \
 solaar solaar-gnome3 \
 fcitx-bin fcitx-googlepinyin \
@@ -32,9 +26,15 @@ doxygen doxygen-latex doxygen-doc doxygen-gui graphviz \
 # Install Ubuntu, C++, CMake essential tools
 sudo apt install -y $ubuntu_essentials $cpp_cmake_essentials
 
+# Configure git
+git config --global user.email "zongyaojin@outlook.com"
+git config --global user.name "Zongyao Jin"
+git config --global credential.helper cache
+git config --global pull.rebase false
+
 # Install and update pip
 sudo apt install -y python3-pip
-pip install --upgrade pip setuptools
+pip install --upgrade --user pip setuptools
 
 # Python essentials
 python_essentials="
