@@ -4,12 +4,6 @@ set -e
 echo -e "[google-chrome]" \
     "https://www.google.com/chrome/"
 
-echo -e "[gnome-icon-hider]" \
-    "https://extensions.gnome.org/extension/351/icon-hider/"
-
-echo -e "[gnome-notification-center]" \
-    "https://extensions.gnome.org/extension/1526/notification-centerselenium-h/"
-
 echo -e "[google-pinyin]" \
     "https://leimao.github.io/blog/Ubuntu-Gaming-Chinese-Input/"
 
