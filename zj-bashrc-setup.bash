@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ##########################################################################################
-# Manually add the following to `~/.bashrc` to make these commands are available to new bash
-# source ~/zj-portal/ubuntu-setup/zj-bash-setup.bash
+# Manually add the following to `~/.bashrc` to make them available to new bash sessions.
+#     source ~/zj-portal/ubuntu-setup/zj-bash-setup.bash
 # ##########################################################################################
 
 # Activate [bash-git-prompt] or report missing then configure it
@@ -31,7 +31,6 @@ export PATH=/home/zjin/.local/bin:$PATH
 # Aliases
 alias update-ubuntu='sudo apt update -y && sudo apt upgrade -y'
 alias update-pip='pip install -upgrade pip setuptools'
-alias bashrc='gedit ~/.bashrc'
 alias downloads='cd ~/Downloads'
 alias zj='mkdir -p ~/zj-portal && cd ~/zj-portal'
 
