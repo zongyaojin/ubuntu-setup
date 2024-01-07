@@ -25,7 +25,7 @@ else
     echo -e "========== zj-bahsrc-setup =========="
 fi
 
-# Add path to pip-installed package to system path
+# Add path to pip-installed packages to system path
 export PATH=/home/zjin/.local/bin:$PATH
 
 # Aliases

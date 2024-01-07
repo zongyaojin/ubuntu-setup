@@ -39,7 +39,7 @@ pip install --upgrade --user pip setuptools
 # Python essentials
 python_essentials="
 virtualenv black isort \
-pandas matplotlib jupyter \
+scipy pandas matplotlib jupyter \
 cmakelang \
 "
 
