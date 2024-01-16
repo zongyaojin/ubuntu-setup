@@ -24,3 +24,12 @@ echo -e "[vs-code]" \
     "https://code.visualstudio.com/download \n" \
     "\tLog in and sync settings to get everything setup\n" \
     "\tFiles -> Preferences -> Settings -> Title Bar Style -> custom\n"
+
+echo -e "[proxychains]" \
+    "https://blog.csdn.net/weixin_44120025/article/details/114936141 \n" \
+    "\t$ sudo apt install proxychains\n" \
+    "\t$ sudo gedit /etc/proxychains.conf\n" \
+    "\t> Last section add: <PROXY_TYPE> <HOST_IP> <PORT_NUMBER>\n" \
+    "\t> Verify settings: $ proxychains curl cip.cc\n" \
+    "\t> Usage example: $ proxychains ping google.com\n" \
+    "\t> Usage example: $ sudo proxychains apt update\n" \
