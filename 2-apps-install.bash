@@ -7,7 +7,7 @@ sudo apt upgrade -y
 
 # Ubuntu essential tools
 ubuntu_essentials="
-git terminator simplescreenrecorder curl wget \
+git gitk terminator simplescreenrecorder curl wget \
 texlive-extra-utils texlive-latex-extra krop \
 solaar solaar-gnome3 \
 fcitx-bin fcitx-googlepinyin \
