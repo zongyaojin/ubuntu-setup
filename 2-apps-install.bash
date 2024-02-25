@@ -12,6 +12,7 @@ texlive-extra-utils texlive-latex-extra krop \
 solaar solaar-gnome3 \
 fcitx-bin fcitx-googlepinyin \
 gnome-tweaks gnome-shell-extensions chrome-gnome-shell \
+ffmpeg \
 "
 
 # C+ and CMake essential tools
