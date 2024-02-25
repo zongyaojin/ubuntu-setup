@@ -8,11 +8,11 @@ sudo apt upgrade -y
 # Ubuntu essential tools
 ubuntu_essentials="
 git gitk terminator simplescreenrecorder curl wget \
-texlive-extra-utils texlive-latex-extra krop \
+texlive-extra-utils texlive-latex-extra krop ghostscript \
 solaar solaar-gnome3 \
 fcitx-bin fcitx-googlepinyin \
 gnome-tweaks gnome-shell-extensions chrome-gnome-shell \
-ffmpeg \
+ffmpeg imagemagick \
 "
 
 # C+ and CMake essential tools
@@ -50,7 +50,4 @@ pip install --user $python_essentials
 # Show git global configuration and memo for pddjam command.
 echo -e "========== zj-apps-install =========="
 git config --list --global
-echo -e "========== zj-apps-install =========="
-echo -e "Memo for pdfjam command (comes with texlive-extra-utils):"
-echo -e "  $ pdfjam file.pdf --nup 2x2 --paper letterpaper --column true --delta '5 5' --scale 0.9"
 echo -e "========== zj-apps-install =========="
