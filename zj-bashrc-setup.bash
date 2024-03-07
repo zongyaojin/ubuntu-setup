@@ -30,15 +30,17 @@ export PATH=/home/zjin/.local/bin:$PATH
 
 # Aliases
 alias up-apt='sudo apt update -y && sudo apt upgrade -y'
-alias up-pip='pip install -upgrade pip setuptools'
+alias up-pip='pip install --upgrade pip setuptools'
 alias dl='cd ~/Downloads'
 alias zp='mkdir -p ~/zj-portal && cd ~/zj-portal'
 alias rp='mkdir -p ~/ros-portal && cd ~/ros-portal'
 
 # ROS setup
 zj_ros_distro_name=humble
-zj_ros_setup_file="/opt/ros/$zj_ros_distro_name/setup.bash"
+zj_ros_distro_path="/opt/ros/$zj_ros_distro_name"
+zj_ros_setup_file="$zj_ros_distro_path/setup.bash"
 
 if [ -f "$zj_ros_setup_file" ]; then
     source $zj_ros_setup_file
+    alias ros-path="cd $zj_ros_distro_path"
 fi
