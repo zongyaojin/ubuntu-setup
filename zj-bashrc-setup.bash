@@ -40,6 +40,9 @@ zj_ros_distro_name=humble
 zj_ros_distro_path="/opt/ros/$zj_ros_distro_name"
 zj_ros_setup_file="$zj_ros_distro_path/setup.bash"
 
+zj_ros_source_install="source ./install/setup.bash"
+alias si="echo $zj_ros_source_install && $zj_ros_source_install"
+
 if [ -f "$zj_ros_setup_file" ]; then
     source $zj_ros_setup_file
     alias ros-path="cd $zj_ros_distro_path"
