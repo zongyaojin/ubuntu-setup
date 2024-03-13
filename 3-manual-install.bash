@@ -7,8 +7,9 @@ echo -e "[google-chrome]" \
 echo -e "[google-pinyin]" \
     "https://leimao.github.io/blog/Ubuntu-Gaming-Chinese-Input/"
 
-echo -e "[ROS]" \
-    "https://docs.ros.org/ \n"
+echo -e "[ROS-2]" \
+    "https://docs.ros.org/en/humble/ \n" \
+    "https://control.ros.org/humble/index.html \n"
 
 echo -e "[pcloud]" \
     "https://www.pcloud.com/download-free-online-cloud-file-storage.html \n" \
