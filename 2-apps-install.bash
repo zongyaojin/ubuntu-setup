@@ -13,6 +13,7 @@ solaar solaar-gnome3 \
 fcitx-bin fcitx-googlepinyin \
 gnome-tweaks gnome-shell-extensions chrome-gnome-shell \
 ffmpeg imagemagick \
+net-tools \
 "
 
 # C+ and CMake essential tools
