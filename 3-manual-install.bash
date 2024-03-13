@@ -36,3 +36,4 @@ echo -e "[proxychains]" \
     "\t> Verify settings: $ proxychains curl cip.cc\n" \
     "\t> Usage example: $ proxychains ping google.com\n" \
     "\t> Usage example: $ sudo proxychains apt update\n" \
+    "\t> See also: https://stackoverflow.com/a/68466096\n"
