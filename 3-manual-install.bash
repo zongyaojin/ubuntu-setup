@@ -9,7 +9,8 @@ echo -e "[google-pinyin]" \
 
 echo -e "[ROS-2]" \
     "https://docs.ros.org/en/humble/ \n" \
-    "https://control.ros.org/humble/index.html \n"
+    "https://control.ros.org/humble/index.html \n" \
+    "https://control.ros.org/humble/doc/ros2_control/controller_manager/doc/userdoc.html#determinism \n"
 
 echo -e "[pcloud]" \
     "https://www.pcloud.com/download-free-online-cloud-file-storage.html \n" \
