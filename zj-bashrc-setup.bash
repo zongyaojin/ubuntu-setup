@@ -41,7 +41,9 @@ zj_ros_distro_path="/opt/ros/$zj_ros_distro_name"
 zj_ros_setup_file="$zj_ros_distro_path/setup.bash"
 
 zj_ros_source_install="source ./install/setup.bash"
-alias si="echo $zj_ros_source_install && $zj_ros_source_install"
+zj_ros_colcon_build="colcon build"
+alias sws="echo $zj_ros_source_install && $zj_ros_source_install"
+alias cb="echo $zj_ros_colcon_build && $zj_ros_colcon_build"
 
 if [ -f "$zj_ros_setup_file" ]; then
     source $zj_ros_setup_file
