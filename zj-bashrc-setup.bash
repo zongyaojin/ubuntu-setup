@@ -33,7 +33,7 @@ alias up-apt='sudo apt update -y && sudo apt upgrade -y'
 alias up-pip='pip install --upgrade pip setuptools'
 alias dl='cd ~/Downloads'
 alias zp='mkdir -p ~/zj-portal && cd ~/zj-portal'
-alias rp='mkdir -p ~/ros-portal && cd ~/ros-portal'
+alias wp='mkdir -p ~/work-portal && cd ~/work-portal'
 
 # ROS setup
 zj_ros_distro_name=humble
