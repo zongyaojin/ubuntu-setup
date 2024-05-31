@@ -45,11 +45,18 @@ zj_ros_colcon_build="colcon build"
 zj_ros_colcon_build_clean="colcon build --cmake-clean-cache"
 zj_ros_colcon_build_symlink="colcon build --symlink-install"
 zj_ros_colcon_build_clean_symlink="colcon build --cmake-clean-cache --symlink-install"
+
+zj_ros_colcon_build_debug="colcon build --cmake-args -DCMAKE_BUILD_TYPE=Debug"
+zj_ros_colcon_build_clean_debug="colcon build --cmake-clean-cache --cmake-args -DCMAKE_BUILD_TYPE=Debug"
+
 alias sws="echo $zj_ros_source_install && $zj_ros_source_install"
 alias cb="echo $zj_ros_colcon_build && $zj_ros_colcon_build"
 alias cbc="echo $zj_ros_colcon_build_clean && $zj_ros_colcon_build_clean"
 alias cbs="echo $zj_ros_colcon_build_symlink && $zj_ros_colcon_build_symlink"
 alias cbcs="echo $zj_ros_colcon_build_clean_symlink && $zj_ros_colcon_build_clean_symlink"
+
+alias cbd="echo $zj_ros_colcon_build_debug && $zj_ros_colcon_build_debug"
+alias cbcd="echo $zj_ros_colcon_build_clean_debug && $zj_ros_colcon_build_clean_debug"
 
 if [ -f "$zj_ros_setup_file" ]; then
   source $zj_ros_setup_file
